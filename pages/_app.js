@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
-        <title>Alert</title>
+        <title>React alert example</title>
       </Head>
       <Message>
         <Component {...pageProps} />
