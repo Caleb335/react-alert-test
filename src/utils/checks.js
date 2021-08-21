@@ -4,7 +4,7 @@ const validateSignUp = (email, password, confirmPassword, alert) => {
   // targeting all form fields
   const emailInput = document.querySelector("#email");
   const passwordInput = document.querySelector("#pwd");
-  const confirmPasswordInput = document.querySelector("#pwd_conf");
+  const confirmPasswordInput = document.querySelector("#pwd__conf");
 
   if (!email) {
     alert.error("Please input your email address");
